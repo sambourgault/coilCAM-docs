@@ -1,0 +1,41 @@
+{
+    "name": "Linear",
+    "type": "1DFunction",
+    "description": "Linear 1D function y = (ax + b) +|* Values0, x is an array of integers from 0 to nbPoints.",
+    "inputs": [
+      {
+        "type": "float",
+        "name": "amplitude",
+        "description": "a, value multiplying x",
+        "default": 60
+      },
+  {
+        "type": "float",
+        "name": "offset",
+        "description": "(optional) b, value added to ax",
+        "default": 0.1
+      },
+  {
+        "type": "int",
+        "name": "nbPoints",
+        "description": "Number of output points (should match initialization params nbPointsInLayer for radiusShapingParameter or nbLayers for all other shaping parameters.)",
+        "default": 0
+      },
+  {
+        "type": "float",
+        "name": "values0",
+        "description": "(optional) Array of floats added to or multiplied by the function.",
+        "default": 0
+      },
+  {
+        "type": "string",
+        "name": "mode",
+        "description": "(optional) ‘aditive’ (default) or ‘multiplicative’ – mode determines if function operation is added to previous values or multiplied by previous values",
+        "default": 0
+      }
+    ],
+    "output": {
+        "type": "float array",
+        "description": "y, array of floats"
+    }
+  }
