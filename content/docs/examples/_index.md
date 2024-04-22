@@ -1,7 +1,8 @@
 +++
 title = 'examples'
 date = 2024-04-13T15:43:45-06:00
-draft = true
+draft = false
+weight = 10
 +++
 
 # examples
