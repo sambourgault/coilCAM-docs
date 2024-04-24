@@ -7,7 +7,7 @@ weight = 2
 
 # quick start
 
-blablabla 
+This is a simple guide for making vessels with coilCAM-js. 
 
 
 
