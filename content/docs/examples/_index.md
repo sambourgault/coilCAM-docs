@@ -7,7 +7,7 @@ weight = 10
 
 # examples
 
-This example shows how to create the toolpath for a simple vessel with sinusoidal functions used as shaping parameter for the radius and scale shaping parameters.
+This example shows how to create the toolpath for a simple vessel with sinusoidal functions used as shaping parameters for the radius and scale shaping parameters.
 
 ```javascript
 //POTTERBOT CONFIG
