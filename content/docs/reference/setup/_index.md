@@ -1,13 +1,11 @@
 +++
-title = 'reference'
+title = 'setup'
 date = 2024-04-13T15:42:11-06:00
 draft = false
 weight = 5
 +++
 
-# reference 
-
-## set up functions
+## setup
 ### toolpath unit generator
 `toolpathUnitGenerator`: Generates a toolpath for a 3D form based on the provided initialization and shaping parameters. Example shape making functions include: exponential, linear, sinusoidal, square, and staircase.
 
@@ -35,8 +33,7 @@ weight = 5
 
 **Returns**
 
-- Path (point3d[]): An ordered array of points representing the generated toolpath
-
+- `path` (`float[nbLayers * nbPointsInLayer * 3]`): A list of floats corresponding to x, y, z coordinates for each point along the toolpath.
 
 
 ## 1D functions
