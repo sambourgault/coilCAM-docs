@@ -8,11 +8,14 @@ weight = 5
 ## quick start
 In the editor below, press the "Run" button at the upper left.
 In the visualization window to the right, you should see a simple vessel appear. 
-<!-- ```javascript
-// default
-solid(1,1,1).invert([0,1]).out(o0)
-``` -->
 
+<!-- 
+<object data="https://www.youtube.com/watch?v=yov9icBU-8o" width="600" height="400">
+    <embed src="https://www.youtube.com/watch?v=yov9icBU-8o" width="600" height="400"> </embed>
+    Error: Embedded data could not be displayed.
+</object> -->
+
+<iframe src="https://www.youtube.com/watch?v=yov9icBU-8o"></iframe>
 
 Forms are created through the ToolpathUnitGenerator function. This function accepts ten parameters.
 * The first five parameters initialize the form.
