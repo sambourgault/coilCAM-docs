@@ -5,11 +5,14 @@ draft = false
 weight = 5
 +++
 
+
 ## quick start
 In the editor below, press the "Run" button at the upper left.
 In the visualization window to the right, you should see a simple vessel appear. 
 
-<iframe src="https://esmepuzio.com/simple-coilCAM-js?vessel=Boolean_Experiment" title="simple-vessel"></iframe>
+<iframe src="https://esmepuzio.com/simple-coilCAM-js?example=Boolean_Experiment" width="100%" style="height: 40vh;" style="border: none;" 
+allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""
+title="simple-vessel"></iframe>
 
 Forms are created through the ToolpathUnitGenerator function. This function accepts ten parameters.
 * The first five parameters initialize the form.
@@ -27,7 +30,9 @@ Forms are created through the ToolpathUnitGenerator function. This function acce
 
 For this demo, a sinusoidal function was applied to the profile of the vessel using the scaleShapingParameter. Try altering the amplitude, period and offset (the first three parameters) to observe how the vessel changes shape.
 
-## add demo here
+<iframe src="https://esmepuzio.com/simple-coilCAM-js?example=CoilCAM_BumpsDish" width="100%" style="height: 40vh;" style="border: none;" 
+allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""
+title="CoilCAM_BumpsDish"></iframe>
 
 Next, a linear function was applied to the vessel to add rotation. Try altering the amplitude and offset (the first two parameters) to observe how the vessel changes shape.
 
