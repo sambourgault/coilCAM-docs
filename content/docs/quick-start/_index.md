@@ -18,29 +18,31 @@ title="Tutorial 1"></iframe>
 
 The toolpath in the visualization window is created through the ToolpathUnitGenerator function. This function accepts eleven parameters.
 * The first five parameters initialize the form.
-    * position (array): Sets the x, y, z coordinates for the center of the form.
-    * initialRadius (float): Sets the radius of the form.
-    * layerHeight (float): Sets the height of all layers in the form.
-    * nbLayers (int): Sets the number of layers for the form.
-    * nbPointsInLayer (int): Sets the number of points in each layer.
+    * `position (array):` Sets the x, y, z coordinates for the center of the form.
+    * `initialRadius (float):` Sets the radius of the form.
+    * `layerHeight (float):` Sets the height of all layers in the form.
+    * `nbLayers (int):` Sets the number of layers for the form.
+    * `nbPointsInLayer (int):` Sets the number of points in each layer.
 * The last six optional parameters are used to shape the vessel. We will apply  each of these parameters one by one through the remainder of this tutorial.
 
 Once those parameters have been passed to the ToolpathUnitGenerator function, we can display the toolpath using the updatePath function. Try modifying the radius, number of layers and number of points in each layer to affect the shape of the toolpath.
 
 ## Shaping the Form
+### radiusShapingParameter
 The first optional parameter is the radiusShapingParameter, which shapes the radius of each layer. To create a star-shaped vessel, we apply a sine wave to the toolpath. 
 
 <iframe src="https://esmepuzio.com/simple-coilCAM-js?example=tutorial_2" width="100%" style="height: 40vh;" style="border: none;" 
 allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""
 title="Tutorial 2"></iframe>
 
-
+### scaleShapingParameter
 The second optional parameter is the scaleShapingParameter, which modifies the size of each layer, shaping the profile of the toolpath. To shape the toolpath into a vase, we apply a sine wave to the profile of the toolpath. 
 
 <iframe src="https://esmepuzio.com/simple-coilCAM-js?example=tutorial_3" width="100%" style="height: 40vh;" style="border: none;" 
 allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""
 title="Tutorial 3"></iframe>
 
+### scalingRadiusShapingParameter
 The third optional parameter is the scalingRadiusShapingParameter, which modifies the intensity of each layer, shaping the profile of the toolpath. 
 <iframe src="https://esmepuzio.com/simple-coilCAM-js?example=tutorial_4" width="100%" style="height: 40vh;" style="border: none;" 
 allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""
@@ -51,15 +53,19 @@ To make the base of the toolpath circular, we multiply the scalingRadiusShapingP
 allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""
 title="Tutorial 5"></iframe>
 
+### translateShapingParameter
 The fourth optional parameter is the translateShapingParameter, which offsets the position of each layer in the form.
 <iframe src="https://esmepuzio.com/simple-coilCAM-js?example=tutorial_6" width="100%" style="height: 40vh;" style="border: none;" 
 allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""
 title="Tutorial 6"></iframe>
 
+### rotateShapingParameter
 The fifth optional parameter is the rotateShapingParameter, which rotates each layer in the form.
 <iframe src="https://esmepuzio.com/simple-coilCAM-js?example=tutorial_7" width="100%" style="height: 40vh;" style="border: none;" 
 allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""
 title="Tutorial 7"></iframe>
+
+### thicknessShapingParameter
 
 The sixth and final optional parameter is the thicknessShapingParameter, which sets the thickness of each point in the form.
 <iframe src="https://esmepuzio.com/simple-coilCAM-js?example=tutorial_8" width="100%" style="height: 40vh;" style="border: none;" 
@@ -73,21 +79,21 @@ allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""
 title="Tutorial 9"></iframe>
 
 The base function accepts six parameters, which are dependent on the parameters of the form it will be attached to.
-* position: The x, y, z coordinates for the center of the form.
-* path: The toolpath of the form.
-* nbPointsInLayer: The number of points in the first layer of the form.
-* layerHeight: The height of all layers in the form.
-* nozzleDiameter: The thickness of the nozzle that will be used to print the toolpath.
-* radius: The radius of the form. 
+* `position:` The x, y, z coordinates for the center of the form.
+* `path:` The toolpath of the form.
+* `nbPointsInLayer:` The number of points in the first layer of the form.
+* `layerHeight:` The height of all layers in the form.
+* `nozzleDiameter:` The thickness of the nozzle that will be used to print the toolpath.
+* `radius:` The radius of the form. 
 
 The spiralize function accepts one parameter.
-* path: The toolpath of the form.
+* `path:` The toolpath of the form.
 
 The centerPrint function accepts three parameters.
-* path: The toolpath of the form.
-* position: The x, y, z coordinates for the center of the form.
-* bedDimensions: The x, y, z coordinates specifying the dimensions of the printer bed.
-* layerHeight: The height of all layers in the form.
+* `path:` The toolpath of the form.
+* `position:` The x, y, z coordinates for the center of the form.
+* `bedDimensions:` The x, y, z coordinates specifying the dimensions of the printer bed.
+* `layerHeight:` The height of all layers in the form.
 
 ## Generating GCode
 Once the form is complete, we can generate gcode using the generateGCode function. 
