@@ -11,7 +11,7 @@ weight = 10
 `linear(amplitude, offset, nbPoints, values0, mode);`
 
 *y = ((amplitude \* x) + offset) (+ or \*) values0*
-<iframe src="https://esmepuzio.com/simple-coilCAM-js?example=functions_linear" width="100%" style="height: 40vh;" style="border: none;" 
+<iframe src="https://sambourgault.github.io/coilCAM-js/simple-editor-index?folder=tutorial-functions&example=functions_linear" width="100%" style="height: 40vh;" style="border: none;" 
 allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""
 title="Linear"></iframe>
 
@@ -31,7 +31,7 @@ title="Linear"></iframe>
 
 *y = ((amplitude \* sin(2π/period) \* x) + (offset)) (+ or \*) values0*
 
-<iframe src="https://esmepuzio.com/simple-coilCAM-js?example=functions_sine" width="100%" style="height: 40vh;" style="border: none;" 
+<iframe src="https://sambourgault.github.io/coilCAM-js/simple-editor-index?folder=tutorial-functions&example=functions_sine" width="100%" style="height: 40vh;" style="border: none;" 
 allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""
 title="Sinusoidal"></iframe>
 
@@ -52,7 +52,7 @@ title="Sinusoidal"></iframe>
 
 *y = (stepHeight\*[x/stepWidth] + offset) (+ or \*) values0*
 
-<iframe src="https://esmepuzio.com/simple-coilCAM-js?example=functions_staircase" width="100%" style="height: 40vh;" style="border: none;" 
+<iframe src="https://sambourgault.github.io/coilCAM-js/simple-editor-index?folder=tutorial-functions&example=functions_staircase" width="100%" style="height: 40vh;" style="border: none;" 
 allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""
 title="Staircase"></iframe>
 
@@ -74,7 +74,7 @@ title="Staircase"></iframe>
 
 *y = (amplitude \* ((x + offset) >= bumps/period)) (+ or \*) values0*
 
-<iframe src="https://esmepuzio.com/simple-coilCAM-js?example=functions_squarewave" width="100%" style="height: 40vh;" style="border: none;" 
+<iframe src="https://sambourgault.github.io/coilCAM-js/simple-editor-index?folder=tutorial-functions&example=functions_squarewave" width="100%" style="height: 40vh;" style="border: none;" 
 allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""
 title="Square Wave"></iframe>
 
@@ -97,7 +97,7 @@ title="Square Wave"></iframe>
 
 *y = amplitude \* base^((amplitudeExponent \* x) + offset) (+ or \*) values0*
 
-<iframe src="https://esmepuzio.com/simple-coilCAM-js?example=functions_exponential" width="100%" style="height: 40vh;" style="border: none;" 
+<iframe src="https://sambourgault.github.io/coilCAM-js/simple-editor-index?folder=tutorial-functions&example=functions_exponential" width="100%" style="height: 40vh;" style="border: none;" 
 allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""
 title="Exponential"></iframe>
 <!-- 
@@ -122,7 +122,7 @@ title="Exponential"></iframe>
 
 *y1 = amplitude1\*x1 + offset1, y2 = amplitude2\*x2 + offset2*
 
-<iframe src="https://esmepuzio.com/simple-coilCAM-js?example=functions_linear2D" width="100%" style="height: 40vh;" style="border: none;" 
+<iframe src="https://sambourgault.github.io/coilCAM-js/simple-editor-index?folder=tutorial-functions&example=functions_linear2D" width="100%" style="height: 40vh;" style="border: none;" 
 allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""
 title="Linear2D"></iframe>
 
@@ -144,7 +144,7 @@ title="Linear2D"></iframe>
 
 *y1 = amplitude1\*x1 + offset1, y2 = amplitude2\*x2 + offset2*
 
-<iframe src="https://esmepuzio.com/simple-coilCAM-js?example=functions_sine2D" width="100%" style="height: 40vh;" style="border: none;" 
+<iframe src="https://sambourgault.github.io/coilCAM-js/simple-editor-index?folder=tutorial-functions&example=functions_sine2D" width="100%" style="height: 40vh;" style="border: none;" 
 allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""
 title="Sinusoidal2D"></iframe>
 
@@ -168,7 +168,7 @@ title="Sinusoidal2D"></iframe>
 
 *Joins together two toolpaths by the layers at each z coordinate. If by_layer = false, the printer will print each toolpath separately.*
 
-<iframe src="https://esmepuzio.com/simple-coilCAM-js?example=functions_union" width="100%" style="height: 40vh;" style="border: none;" 
+<iframe src="https://sambourgault.github.io/coilCAM-js/simple-editor-index?folder=tutorial-functions&example=functions_union" width="100%" style="height: 40vh;" style="border: none;" 
 allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""
 title="Union"></iframe>
 
@@ -177,7 +177,7 @@ title="Union"></iframe>
 
 *Takes the intersection of two toolpaths by the layers at each z coordinate. If by_layer = false, the printer will print each toolpath separately.*
 
-<iframe src="https://esmepuzio.com/simple-coilCAM-js?example=functions_intersection" width="100%" style="height: 40vh;" style="border: none;" 
+<iframe src="https://sambourgault.github.io/coilCAM-js/simple-editor-index?folder=tutorial-functions&example=functions_intersection" width="100%" style="height: 40vh;" style="border: none;" 
 allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""
 title="Intersection"></iframe>
 
@@ -186,7 +186,7 @@ title="Intersection"></iframe>
 
 *Subtracts path0 by path1. If by_layer = false, the printer will print each toolpath separately.*
 
-<iframe src="https://esmepuzio.com/simple-coilCAM-js?example=functions_difference" width="100%" style="height: 40vh;" style="border: none;" 
+<iframe src="https://sambourgault.github.io/coilCAM-js/simple-editor-index?folder=tutorial-functions&example=functions_difference" width="100%" style="height: 40vh;" style="border: none;" 
 allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""
 title="Difference"></iframe>
 
@@ -199,7 +199,7 @@ title="Difference"></iframe>
 
 *Converts a midi or wav file to an array of floats.*
 
-<iframe src="https://esmepuzio.com/simple-coilCAM-js?example=functions_waveform" width="100%" style="height: 40vh;" style="border: none;" 
+<iframe src="https://sambourgault.github.io/coilCAM-js/simple-editor-index?folder=tutorial-functions&example=functions_waveform" width="100%" style="height: 40vh;" style="border: none;" 
 allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""
 title="Waveform"></iframe>
 

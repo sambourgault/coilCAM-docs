@@ -10,18 +10,13 @@ weight = 10
 Examples of more complex forms made with CoilCAM-js are listed below.
 
 
-<details>
-<summary>Micro Demo Vessel</summary>
-<br>
-<iframe src="https://esmepuzio.com/simple-coilCAM-js?example=example_microdemovessel" width="100%" style="height: 40vh;" style="border: none;" 
+
+### Micro Demo Vessel
+<iframe src="https://sambourgault.github.io/coilCAM-js/simple-editor-index?folder=tutorial-complex&example=CoilCAM_MicroDemoVessel" width="100%" style="height: 40vh;" style="border: none;" 
 allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""
 title="Micro Demo Vessel"></iframe>
-</details>
 
-<details>
-<summary>Micro Example Mug</summary>
-<br>
-<iframe src="https://esmepuzio.com/simple-coilCAM-js?example=example_microexamplemug" width="100%" style="height: 40vh;" style="border: none;" 
+### Micro Example Mug</summary>
+<iframe src="https://sambourgault.github.io/coilCAM-js/simple-editor-index?folder=tutorial-complex&example=example_microexamplemug" width="100%" style="height: 40vh;" style="border: none;" 
 allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""
 title="Micro Mug"></iframe>
-</details>
