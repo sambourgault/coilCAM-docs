@@ -1,0 +1,15 @@
+<script>
+  window.MathJax = {
+    tex: {
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],  // block delimiters
+      inlineMath: [['\\(', '\\)']]                  // inline delimiters
+    },
+    loader: {
+      load: ['ui/safe']
+    },
+    chtml: {
+      displayAlign: "left", 
+    }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
