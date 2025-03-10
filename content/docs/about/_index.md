@@ -2,7 +2,7 @@
 title = 'about'
 date = 2024-04-13T15:42:11-06:00
 draft = false
-weight = 5
+weight = 1
 [params]
   math = true
 +++
@@ -11,7 +11,7 @@ weight = 5
 # About
 
 ## Video Tutorial
-*Coming soon*
+{{< youtube 1zrHz77bztc>}}
 
 ## What is CoilCAM?
 CoilCAM is a digital fabrication workflow for designing toolpaths using parametric functions. CoilCAM was originally written in Python as a scripting plug-in for [Grasshopper](https://simplyrhino.co.uk/3d-modelling-software/grasshopper). CoilCAM-js implements core functionalities from CoilCAM as an open-source [javascript library](https://www.npmjs.com/package/coilcam). The original CoilCAM library can be accessed [here](https://github.com/sambourgault/coilCAM "coilCAM"), while a web editor for CoilCAM-js can be accessed [here](https://sambourgault.github.io/coilCAM-js/).

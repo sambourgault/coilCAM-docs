@@ -2,7 +2,7 @@
 title = 'documentation'
 date = 2024-04-13T15:42:11-06:00
 draft = false
-weight = 10
+weight = 3
 [params]
   math = true
 +++

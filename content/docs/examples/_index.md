@@ -12,7 +12,7 @@ weight = 10
 Examples of complex forms made with CoilCAM-js are listed below.
 
 ### Micro Demo Vessel
-Vase created by [Devon Frost](https://devnfrost.com/projects.html) for [CoilCAM](https://github.com/sambourgault/coilCAM/blob/main/Examples/CoilCAM_PBMicroDemoVessel.gh).
+Vase created by [Devon Frost](https://devnfrost.com) and [Sam Bourgault](https://sambourgault.com) for [CoilCAM](https://github.com/sambourgault/coilCAM/blob/main/Examples/CoilCAM_PBMicroDemoVessel.gh).
 
 {{< tabs "Micro Demo Vessel">}}
 {{% tab "Web Editor" %}}
@@ -80,7 +80,7 @@ var gcode = generateGCode(toolpath, potterbot_layerHeight, potterbot_nozzleDiame
 
 
 ### Micro Example Mug
-Hourglass-shaped cup created by [Sam Bourgault](https://sambourgault.com) for [CoilCAM](https://github.com/sambourgault/coilCAM/blob/main/Examples/CoilCAM_PBMicroExampleMug.gh).
+Hourglass-shaped cup created by [Devon Frost](https://devnfrost.com) for [CoilCAM](https://github.com/sambourgault/coilCAM/blob/main/Examples/CoilCAM_PBMicroExampleMug.gh).
 
 {{< tabs "Micro Example Mug">}}
 {{% tab "Web Editor" %}}
@@ -179,7 +179,7 @@ var gcode = generateGCode(toolpath, potterbot_layerHeight, potterbot_nozzleDiame
 {{< /tabs >}}
 
 ### Checkerboard Bowl
-Bowl with checkerboard pattern created by thickness parameter.
+Bowl with checkerboard pattern created by [Esmé Puzio](https://epuzio.com/).
 
 {{< tabs "Checkerboard Bowl">}}
 {{% tab "Web Editor" %}}
@@ -225,7 +225,7 @@ var gcode = generateGCode(toolpath, potterbot_layerHeight, potterbot_nozzleDiame
 
 
 ### Union Difference Mug
-Mug that demonstrates union and difference functions.
+Mug created by [Esmé Puzio](https://epuzio.com/) that demonstrates union and difference functions.
 
 {{< tabs "Union Difference Mug">}}
 {{% tab "Web Editor" %}}
@@ -290,7 +290,7 @@ var gcode = generateGCode(toolpath, potterbot_layerHeight, potterbot_nozzleDiame
 {{< /tabs >}}
 
 ### Difference Candleholder
-Candle holder with a groove made through a difference function.
+Candle holder made by [Esmé Puzio](https://epuzio.com/) with a groove created from a difference function.
 {{< tabs "Candleholder">}}
 {{% tab "Web Editor" %}}
 <iframe src="https://sambourgault.github.io/coilCAM-js/simple-editor-index?folder=docs-examples&example=DifferenceCandleHolder" width="100%" style="height: 40vh;" style="border: none;" 
@@ -338,7 +338,7 @@ var gcode = generateGCode(toolpath, potterbot_layerHeight, potterbot_nozzleDiame
 {{< /tabs >}}
 
 ### Boolean Union Vase
-Complex example to demonstrate union between six smaller vessels and a main vase.
+Complex example by [Esmé Puzio](https://epuzio.com/) to demonstrate union function between six smaller vessels and a main vase.
 {{< tabs "Boolean Union Vase">}}
 {{% tab "Web Editor" %}}
 <iframe src="https://sambourgault.github.io/coilCAM-js/simple-editor-index?folder=docs-examples&example=BooleanUnionVase" width="100%" style="height: 40vh;" style="border: none;" 

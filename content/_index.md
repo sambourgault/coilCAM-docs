@@ -16,7 +16,7 @@ The [about]({{< ref "/docs/about/_index.md" >}}) page provides a starting point 
 
 The [tutorial]({{< ref "/docs/tutorial/_index.md" >}}) page demonstrates the effects of different CoilCAM functions using in-browser visualizations.
 
-The [reference]({{< ref "/docs/documentation/_index.md" >}}) page provides a list of CoilCAM functions, with in-browser examples for each one.
+The [documentation]({{< ref "/docs/documentation/_index.md" >}}) page provides a list of CoilCAM functions, with in-browser examples for each one.
 
 The [quickstart]({{< ref "/docs/quick-start/_index.md" >}}) page demonstrates how to navigate the web editor and Dynamic Toolchains.
 
