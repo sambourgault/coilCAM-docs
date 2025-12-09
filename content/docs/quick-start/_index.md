@@ -8,7 +8,7 @@ weight = 4
 +++
 
 
-## CoilCAM-js 
+## :P
 There are three separate ways to use CoilCAM-js functions. Users can install the javascript library using npm, experiment with functions through the web editor, or experiment with functions using the cc-toolchains branch of Dynamic Toolchains.
 
 ### Javascript Library

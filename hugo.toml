@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'CoilCAM-js'
+title = 'esme puzio'
 theme = 'hugo-book'
 sectionPagesMenu = 'main'
 [markup]
@@ -15,3 +15,4 @@ sectionPagesMenu = 'main'
             inline = [['\(', '\)']]
 [params]
   math = true
+  BookSearch = false

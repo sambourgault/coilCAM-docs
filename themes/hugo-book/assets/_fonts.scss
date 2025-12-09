@@ -1,4 +1,6 @@
 /* roboto-regular - latin */
+
+// REGULAR PARAGRAPH TEXT
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
@@ -8,7 +10,9 @@
        url('fonts/roboto-v27-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('fonts/roboto-v27-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
 /* roboto-700 - latin */
+// BOLD PARAGRAPH TEXT
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
@@ -30,10 +34,36 @@
        url('fonts/roboto-mono-v13-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* roboto-mono-regular - latin */
+@font-face {
+  font-family: 'Hoefler Text';
+  font-style: oblique;
+  font-weight: 900;
+  font-width: 1000;
+  font-display: swap;
+  src: local(''),
+        url('/fonts/NotoSerif-Italic-VariableFont_wdth,wght.ttf') format('tff'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('fonts/NotoSerif-Italic-VariableFont_wdth,wght.ttf') format('tff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
 body {
   font-family: 'Roboto', sans-serif;
 }
 
 code {
   font-family: 'Roboto Mono', monospace;
+}
+
+// set menu, navbar fonts to Hoefler Text
+span {
+  font-family: 'Hoefler Text', sans-serif;
+  font-style: oblique;
+  font-weight: 900;
+}
+
+strong {
+  font-family: 'Hoefler Text', sans-serif;
+  font-style: oblique;
+  font-weight: 900;
 }

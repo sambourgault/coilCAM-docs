@@ -33,7 +33,3 @@ At the top is a menu bar containing the following options:
 Try selecting the "demo vase" example from the dropdown. Then, make changes to the scalingParameter, layerRotation and thicknessParameter and press the "run" button to see those changes reflected in the toolpath visualizer. When you are satisfied with your changes, uncomment the generateGCode and downloadGCode lines and press "run" to download your toolpath as a gcode file.
 
 {{< youtube I-u0LMMkwkg>}}
-
-## Additional Resources
-Additional examples are available through the [examples]({{< ref "/docs/examples/_index.md" >}}) tab, and code from these examples can be pasted into the web editor. Similarly, each step of the [tutorial]({{< ref "/docs/tutorial/_index.md" >}}) can be pasted into the web editor.
-
