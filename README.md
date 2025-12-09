@@ -1,3 +1,3 @@
-# epuzio site (through hugo book)
+# coilCAM-docs
 
 
